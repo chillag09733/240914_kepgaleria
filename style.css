@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  main.container {
+    margin-top: 30px;
+  }
+  
+ 
+  header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  button img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover img {
+    transform: scale(1.1); 
+  }
+
+  #prev{
+    transform: scaleX(-1);
+}  
+
+  .kivalasztott {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px; 
+  }
+  
+  .kivalasztott img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .kivalasztott p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  .kiskepek {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  } 
+  
+  .kiskepek .card {
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .kiskepek .card img {
+    border-radius: 10px;
+  }
+  
+  .kiskepek .card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    border: none;
+  }
+  
+  .card-body img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
